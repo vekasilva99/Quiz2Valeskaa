@@ -1,0 +1,29 @@
+<div class="wrapper">
+        
+    <div class="info">
+            <div class="info2">
+                    <h1>{{movie.Title}} ({{movie.Year}})</h1>
+                    <h2>Runtime: {{movie.Runtime}}</h2>
+                    <h2>Genre: {{movie.Genre}}</h2>
+                    <h2>Director: {{movie.Director}}</h2>
+                    <h2>Actors: {{movie.Actors}}</h2>
+                    <h2>Awards: {{movie.Awards}}</h2>
+                    <h2>Plot: {{movie.Plot}}</h2>
+                    <div *ngIf="movie.Available && movie.Seats>0">
+                    <a routerLink="/reservar/{{movie.Id}}"class="myButton" >
+                        RESERVAR
+                    </a>
+                </div>
+            <div *ngIf="movie.ComingSoon" >
+                    <a  class="myButton" >PROXIMAMENTE</a>
+                </div>
+            <div *ngIf="movie.Available && 1>movie.Seats " >
+                    <a href="#" class="myButton" >FUNCION AGOTADA</a>
+                </div>  
+                </div>
+            <app-movie-slider [movie]=movie></app-movie-slider>
+
+           
+        
+    </div>
+</div>

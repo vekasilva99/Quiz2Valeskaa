@@ -1,0 +1,53 @@
+<div class="wrapper">
+
+        <div class="info">
+                <div class="title">
+                <h1>RESERVAR</h1>
+                        <h2>{{movie.Title}}</h2>
+                        <h3>Asientos disponibles: {{movie.Seats}}</h3>
+                </div> 
+                <div *ngIf="!name; else forminfo">
+                        <form  [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)">
+                                <div class="form-container">
+                                        <div class="row columns">
+                                                        
+                                               
+                                                <label>Name
+                                                        <input type="text" formControlName="name">
+                                                </label>
+
+                                                <label>Last Name
+                                                        <input type="text" formControlName="lastName">
+                                                </label>
+                                                <label>Seats
+                                                        <input type="number" min="1" max={{movie.Seats}} formControlName="seats">
+                                                </label>
+                                                <label>ID
+                                                        <input type="text" formControlName="id">
+                                                </label>
+                                                <label>Phone Number
+                                                        <input type="text" formControlName="phoneNumber">
+                                                </label>
+
+
+                                                <input type="submit" class="button expanded" value="RESERVAR"
+                                                        [disabled]="!rForm.valid"id="boton">
+
+                                                        
+                                        </div>
+                                </div>
+                        </form>
+                </div>
+
+                <ng-template #forminfo>
+                        <div class="form-container">
+                                <div class="row columns">
+                                        <h1>{{ name }}</h1>
+
+                                        <p>{{ description }}</p>
+                                </div>
+                        </div>
+                </ng-template>
+
+        </div>
+</div>

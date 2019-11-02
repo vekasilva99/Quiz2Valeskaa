@@ -1,0 +1,13 @@
+<div class="pelicula">
+    <div class="imagen" >
+        
+            <img src="{{movie.Poster}}">
+        <div class="info">
+                <a [routerLink]="['/detail',movie.Id]">{{movie.Title}}</a>
+                <h3>Generos: {{movie.Genre}} </h3>
+                <h3>Idiomas: {{movie.Language}}</h3>
+            </div>
+    </div>
+    
+   
+</div>

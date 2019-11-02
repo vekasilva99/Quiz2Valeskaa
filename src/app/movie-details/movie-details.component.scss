@@ -1,0 +1,63 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .info{
+     width:80vw;
+     height: 70vh;
+     background-color: white;
+     position: absolute;
+     top:50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     border-top: 5px solid #86eae9;
+     border-bottom: 5px solid #86eae9;
+     border-left: 5px solid #86eae9;
+     border-right: 5px solid #86eae9;
+ }
+
+ .info2{
+     margin-left: 45%;
+     position: absolute;
+ }
+
+ .info2 h1{
+    font-size: 8vh;
+    font-family: 'Montserrat-Medium';
+    color: #13538a;
+}
+
+.info2 h2{
+    margin: 2%;
+    font-size: 2vh;
+
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #13538a;
+	background:linear-gradient(to bottom, #13538a 5%, #13538a 100%);
+	background-color:#13538a;
+	border-radius:5px;
+	border:1px solid #13538a;
+	display:inline-block;
+	cursor:pointer;
+	color:#86eae9;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #13538a 5%, #86eae9 100%);
+	background-color:#13538a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

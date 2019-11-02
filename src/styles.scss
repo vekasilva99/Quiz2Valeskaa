@@ -1,1 +1,113 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family:Montserrat-Black;
+    src: url(assets/fonts/montserrat/Montserrat-Black.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-BlackItalic;
+    src: url(assets/fonts/montserrat/Montserrat-BlackItalic.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-Bold;
+    src: url(assets/fonts/montserrat/Montserrat-Bold.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-BoldItalic;
+    src: url(assets/fonts/montserrat/Montserrat-ExtraBoldItalic.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-ExtraBold;
+    src: url(assets/fonts/montserrat/Montserrat-ExtraBold.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-ExtraBoldItalic;
+    src: url(assets/fonts/montserrat/Montserrat-ExtraBoldItalic.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-ExtraLight;
+    src: url(assets/fonts/montserrat/Montserrat-ExtraLight.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-ExtraLightItalic;
+    src: url(assets/fonts/montserrat/Montserrat-ExtraLightItalic.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-Italic;
+    src: url(assets/fonts/montserrat/Montserrat-Italic.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-Light;
+    src: url(assets/fonts/montserrat/Montserrat-Light.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-LightItalic;
+    src: url(assets/fonts/montserrat/Montserrat-LightItalic.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-Medium;
+    src: url(assets/fonts/montserrat/Montserrat-Medium.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-MediumItalic;
+    src: url(assets/fonts/montserrat/Montserrat-MediumItalic.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-Regular;
+    src: url(assets/fonts/montserrat/Montserrat-Regular.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-SemiBold;
+    src: url(assets/fonts/montserrat/Montserrat-SemiBold.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-SemiBoldItalic;
+    src: url(assets/fonts/montserrat/Montserrat-SemiBoldItalic.otf);
+
+  }
+
+  @font-face {
+    font-family:Montserrat-Thin;
+    src: url(assets/fonts/montserrat/Montserrat-Thin.otf);
+
+  }
+
+body{
+    font-family: 'Montserrat-Thin';
+    background: #191919;
+    margin:0;
+    padding: 0;
+     width: 100%;
+    overflow-x: hidden;
+}
+  

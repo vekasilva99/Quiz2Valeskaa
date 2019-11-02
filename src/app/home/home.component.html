@@ -1,0 +1,29 @@
+<app-header></app-header>
+<div class="contenedor">
+
+
+<div class="wrapper">
+   <div class="moviegrid" *ngFor="let movie of movies | cartelera">
+       
+    <app-movie [movie]=movie></app-movie>
+</div>
+</div>
+
+</div>
+<div class="imagen">
+        <img src="../../assets/IMG/7.jpg">
+</div>
+<div class="contenedor2">
+        
+        <div class="wrapper">
+           <div class="moviegrid" *ngFor="let movie of movies | soon">
+               
+            <app-movie [movie]=movie></app-movie>
+        </div>
+        </div>
+        
+        
+        </div>
+        <div class="imagen">
+                <img src="../../assets/IMG/1.jpg">
+        </div>

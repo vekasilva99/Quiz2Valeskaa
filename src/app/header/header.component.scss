@@ -1,0 +1,44 @@
+.wrapper{
+   width: 100vw;
+   height: 60vh;
+   position: relative; 
+  
+  
+ 
+}
+.wrapper2{
+    width: 100vw;
+    height: 60vh;
+    position: absolute; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.wrapper img{
+    width:100vw;
+    height:40vh;
+    position: absolute;
+}
+
+.wrapper2 h1{
+    color: #86eae9;
+    font-size: 10vh;
+    font-family: 'Montserrat-Medium';
+    margin-top: 35%;
+   
+    
+
+}
+.imagen {
+    width: 100vw;
+    height:40vh;
+    margin-top: 10%;
+}
+
+.imagen  img{
+    width: 100vw;
+    height:80vh;
+}
