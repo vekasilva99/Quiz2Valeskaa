@@ -4,6 +4,7 @@ import { NgxGalleryModule } from 'ngx-gallery';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { AdminComponent } from './admin/admin.component';
 import { HomeComponent } from './home/home.component';
 import { ReservarComponent } from './reservar/reservar.component';
 import { MovieComponent } from './movie/movie.component';
@@ -36,7 +37,8 @@ export class CustomHammerConfig extends HammerGestureConfig {
     CarteleraPipe,
     SoonPipe,
     MovieSliderComponent,
-    ReservarComponent
+    ReservarComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

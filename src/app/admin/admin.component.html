@@ -1,0 +1,20 @@
+<div class="wrapper">
+        <a routerLink="/orders" class="log">ADMIN</a>
+        <a routerLink="/home" class="log1">HOME</a>
+        <h1>ADMINISTRADOR</h1>
+        <div class="list">
+                <ul class="estados">
+                    <li *ngFor= "let reserva of reservas" > 
+                          
+                <span>Name: {{reserva.name}}    </span>
+                <span>Last Name: {{reserva.lastname}}    </span>
+                <span >Movie ID: {{reserva.movieId}}    </span>
+                <span >ID: {{reserva.id}}    </span>
+                <span >Phone Number: {{reserva.phoneNumber}}    </span>
+                <span >Seats: {{reserva.seats}}    </span>
+                    </li>
+                </ul>
+                
+                </div>
+
+</div>
